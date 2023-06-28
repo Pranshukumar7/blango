@@ -1,0 +1,9 @@
+model,Root Mean Squared,Accuracy on training set,Accuracy on Testing set
+MLP,205.550645,0.689850,0.648143
+AdaBoost,148.177027,0.832878,0.817152  
+DecisionTree,115.421645,0.999993, 0.889056  
+RandomForest,84.069592 ,0.991793,0.941142  
+ExtraTrees,80.262533,0.999993,0.946352  
+
+
+

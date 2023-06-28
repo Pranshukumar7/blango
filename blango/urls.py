@@ -18,5 +18,8 @@ from django.urls import path , include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("",include("blog.urls"))
+    path("",include("blog.urls")),
+    path("api/v1/",include('blog.api_urls')),
 ]
+from django.conf import settings
+print(f"Time Zone : {settings.TIME_ZONE}")
